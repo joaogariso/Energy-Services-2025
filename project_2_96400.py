@@ -22,10 +22,9 @@ from sklearn.ensemble import (
 from sklearn.tree import DecisionTreeRegressor
 from sklearn.neural_network import MLPRegressor
 
-# external_stylesheets = ['https://codepen.io/chriddyp/pen/bWLwgP.css']
-external_stylesheets = ['https://codepen.io/chriddyp/pen/brPBPO.css']  # Alternative Dash CSS
-# external_stylesheets = ['https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css']
+external_stylesheets = ['https://codepen.io/chriddyp/pen/bWLwgP.css']
 
+print('\n\nYou can find the online implementation of this dashboard on https://energy-services-2025-dashboard.onrender.com/.\n')
 
 
 
