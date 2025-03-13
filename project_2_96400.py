@@ -161,6 +161,7 @@ server  = app.server
 
 app.layout = html.Div(style={'backgroundColor':'white'}, children=[
     html.H1('Energy Services Project 2 - North Tower Energy Consumption Forecast'),
+    html.H3('João Gariso - 96400'),
     # html.Div(id='df_17_18', children=df_17_18.to_json(orient='split'), style={'display': 'none'}),
     dcc.Tabs(id='tabs', value='dataset_explorer_tab', children=[
 
@@ -278,7 +279,7 @@ app.layout = html.Div(style={'backgroundColor':'white'}, children=[
             value='model_predictions_tab', 
             children=[
                 html.H2('Model Predictions'),
-                html.P('Click the button below to run the model and generate predictions for the 2019 power consumption, allowing you to compare the estimated values with the actual data.'),
+                html.P("Click the button below to run the model and generate predictions for the 2019 power consumption, allowing you to compare the estimated values with the actual data. Don't forget to train the model on the previous tab"),
                 html.Button('Run Model', id='button_run_model'),
                 html.Div(
                     style={
